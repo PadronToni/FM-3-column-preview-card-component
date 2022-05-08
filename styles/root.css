@@ -1,0 +1,10 @@
+:root {
+
+	--accent-orange: hsl(31, 77%, 52%);
+	--accent-cyan: hsl(184, 100%, 22%);
+	--accent-green: hsl(179, 100%, 13%);
+
+	/* Neutrals */
+	--white-500: hsl(0, 0%, 95%);
+	--white-600: hsla(0, 0%, 100%, 0.75);
+}

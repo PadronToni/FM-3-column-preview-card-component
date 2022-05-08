@@ -1,0 +1,8 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+/* Modules */
+@import "styles/root.css";
+@import "styles/base.css";
+@import "styles/headings.css";
+@import "styles/attribution.css";
