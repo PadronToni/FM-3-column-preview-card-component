@@ -1,0 +1,65 @@
+
+
+.section-columns {
+	display: flex;
+	flex-flow: row wrap;
+
+	max-width: 800px;
+
+	border-radius: .5em;
+	overflow: hidden;
+	background-color: brown;
+}
+
+
+.section-columns__column {
+	--main-color: hsl(106, 50%, 58%);
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	gap: 2em;
+
+	flex: 1 1;
+
+	min-width: 200px;
+	padding: 2.5em;
+
+	background-color: var(--main-color);
+}
+
+.section-columns__title {
+	font-family: "Big Shoulders Display", sans-serif;
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+
+.section-columns__description {
+	color: var(--white-600);
+	line-height: 1.7;
+}
+
+.section-columns__action-button {
+	--bg: var(--white-500);
+	--fg: var(--main-color);
+
+	font-size: 1.1em;
+	border-radius: 100px;
+	padding-inline: 1.5em;
+}
+.section-columns__action-button:hover {
+	--bg: var(--main-color);
+	--fg: var(--white-500);
+
+	border-color: var(--fg);
+}
+
+/* Modifiers */
+.section-columns--orange {
+	--main-color: var(--accent-orange);
+}
+.section-columns--cyan {
+	--main-color: var(--accent-cyan);
+}
+.section-columns--green {
+	--main-color: var(--accent-green);
+}

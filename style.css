@@ -5,4 +5,9 @@
 @import "styles/root.css";
 @import "styles/base.css";
 @import "styles/headings.css";
-@import "styles/attribution.css";
+
+@import "styles/elements/buttons.css";
+@import "styles/elements/headings.css";
+
+@import "styles/components/section-columns.css";
+@import "styles/components/attribution.css";
