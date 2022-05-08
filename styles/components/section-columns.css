@@ -1,16 +1,14 @@
-
-
 .section-columns {
 	display: flex;
 	flex-flow: row wrap;
 
-	max-width: 800px;
+	margin: 3em;
+	max-width: 850px;
 
-	border-radius: .5em;
-	overflow: hidden;
-	background-color: brown;
+	border-radius: 0.5em;
+	overflow: auto;
+	background-color: white;
 }
-
 
 .section-columns__column {
 	--main-color: hsl(106, 50%, 58%);
@@ -21,7 +19,7 @@
 
 	flex: 1 1;
 
-	min-width: 200px;
+	min-width: 250px;
 	padding: 2.5em;
 
 	background-color: var(--main-color);
@@ -42,9 +40,12 @@
 	--bg: var(--white-500);
 	--fg: var(--main-color);
 
+	margin-top: auto;
+	padding-inline: 1.5em;
+
+	white-space: nowrap;
 	font-size: 1.1em;
 	border-radius: 100px;
-	padding-inline: 1.5em;
 }
 .section-columns__action-button:hover {
 	--bg: var(--main-color);
