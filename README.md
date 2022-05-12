@@ -40,8 +40,8 @@ Here is the component at various sizes.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://your-solution-url.com)
+- Live Site URL: [Github pages](https://padrontoni.github.io/FM-3-column-preview-card-component/)
 
 ## My process
 
@@ -62,5 +62,5 @@ It was very funny!
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Simone Boccuzzi](https://github.com/PadronToni)
+- Frontend Mentor - [@PadronToni](https://www.frontendmentor.io/profile/yourusername)

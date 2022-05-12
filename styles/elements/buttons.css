@@ -7,12 +7,13 @@ button {
 	justify-content: center;
 
 	padding-inline: 1em;
-	padding-block: 0.5em;
+	/* padding-block: 0.5em; */
 
 	cursor: pointer;
 
+	font-family: var(--font-main);
 	text-transform: capitalize;
-	font-weight: 700;
+	line-height: 3;
 
 	border-radius: 0.5em;
 	border: 2px solid var(--bg);
@@ -26,7 +27,7 @@ button:hover {
 	--bg: hsl(0, 0%, 90%);
 }
 
-button:active,
+button:focus-visible,
 button:target,
 button:focus {
 	outline: 2px dotted var(--bg);

@@ -4,6 +4,7 @@
 
 	margin: 3em;
 	max-width: 850px;
+	min-height: 500px;
 
 	border-radius: 0.5em;
 	overflow: hidden;
@@ -20,7 +21,7 @@
 	flex: 1 1;
 
 	min-width: 250px;
-	padding: 2.5em;
+	padding: 3em;
 
 	background-color: var(--main-color);
 }
@@ -41,10 +42,9 @@
 	--fg: var(--main-color);
 
 	margin-top: auto;
-	padding-inline: 1.5em;
+	padding-inline: 2em;
 
 	white-space: nowrap;
-	font-size: 1.1em;
 	border-radius: 100px;
 }
 .section-columns__action-button:hover {
