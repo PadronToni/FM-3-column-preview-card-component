@@ -40,7 +40,7 @@ Here is the component at various sizes.
 
 ### Links
 
-- Solution URL: [solution](https://your-solution-url.com)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/3column-card-component-css-custom-properties-to-the-nth-degree-SJ_E-tIUq)
 - Live Site URL: [Github pages](https://padrontoni.github.io/FM-3-column-preview-card-component/)
 
 ## My process
